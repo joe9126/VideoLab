@@ -1,0 +1,359 @@
+body{
+   /* background: #333333;*/
+    background-color: #262624;
+}
+#searchpage{
+    width: 600px;
+}
+.navbar{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-header{
+   /* background-color: yellow;*/
+    color: black;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.panel{
+    margin-top: 20px;
+}
+.container{
+    background: #262624;
+   width: 98%;
+    min-height: 600px;
+
+}
+.videotitle{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.usericon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #333333;
+    border: 1px solid white;
+}
+.user-post{
+    display: inline;
+}
+.postedvideo{
+ position: relative;
+  cursor: pointer;
+  background-color: inherit;
+  border:none;
+}
+.videolengthdiv{
+    position: absolute;
+    opacity: 0.5;
+    bottom:0;
+    right: 0;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    z-index: 100;
+}
+.vlength{
+    font-size: 14px;
+}
+.well{
+    background-color:  #181616 ;
+    color: white;
+    border: none;
+}
+
+
+input.parsley-success,
+select.parsley-success,
+textarea.parsley-success {
+    color: #468847;
+    background-color: #DFF0D8;
+    border: 1px solid #D6E9C6;
+}
+
+input.parsley-error,
+select.parsley-error,
+textarea.parsley-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border: 1px solid #EED3D7;
+}
+
+.parsley-errors-list {
+    margin: 2px 0 3px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    opacity: 0;
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.parsley-errors-list.filled {
+    opacity: 1;
+}
+
+input.parsley-type, .parsley-required, .parsley-equalto, .parsley-pattern, .parsley-length{
+    color:#ff0000;
+}
+footer{
+    border-top: 1px solid #333333;
+    width: 98%;
+    height: 200px;
+    /*box-shadow: 2px 6px 8px #000000;*/
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #181616;
+}
+#confirmpworgmsg{
+    color: red;
+    display: none;
+}
+.statusmsg{
+    width: 98%;
+    /*height: 5px;*/
+   /* background-color: inherit;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.videopagetable{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.videopagetable >tbody>tr>td{
+    width: 400px;
+    height: auto;
+    padding: 0;
+/*border: 1px solid white;*/
+}
+.videotemplate{
+    width: 100%;
+    max-height: 400px;
+   margin-top:0;
+
+}
+.playercontainer{
+    width: 680px;
+    height: auto;
+   max-height: 400px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #181616;
+}
+.mediaplayer{
+  width: auto;
+   width: 100%;
+    height: 400px;
+     /*background-color: #181616;*/
+     background-color: inherit;
+}
+.videodata{
+    color: white;
+    text-indent: 5px;
+    border-bottom: 1px solid  #61615d;
+    margin-bottom: 2px;
+}
+a.link{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+a.link:hover{
+    color: orange;
+}
+.messagepopup{
+    width: 200px;
+    height: 100px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 100px;
+}
+.likeicon{
+     position: relative;
+   display: inline-block;
+   -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.likeicon .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/* Popup arrow */
+.likeicon .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.likeicon .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.vid_basics{
+  /*background-color: yellow;*/
+}
+
+.post_title{
+  border-top: 1px solid #FFC300;
+  background-color: inherit;
+  margin-top: 5px;
+ }
+ .playervideotitle{
+  font-size: 20px;
+  width: 100%;
+  color: white;
+ }
+ .likeicon{
+  border-bottom: 2px solid  #262624;
+ }
+ .share{
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+ /* background-color: #6b6b68;  */
+ }
+ .videoinfo{
+ 
+ }
+ .usericon{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  left: 0;
+
+ }
+ 
+ .follow{
+  background-color: #FFC300;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+ }
+ .user-def{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  left: 0;
+ }
+ .user-data{
+  color: white;
+ }
+ .user-metadata{
+  border-bottom: 1px solid grey;
+  margin-bottom: 2px;
+ }
+ .vid_description{
+  color: white;
+  margin-bottom: 10px;
+ }
+.vidplayer{
+  position: relative;
+  width: 100%;
+  top: 0;
+  height: auto;
+  max-height: 400px;
+}
+.section-title{
+  font-size: 22px;
+  color: white;
+}
+.usercomment{
+  border-style: none;
+  width: 100%;
+  background-color: inherit;
+  color: white;
+  border-bottom: 1px solid white;
+  margin: 5px 0 10px 0;
+
+}
+.comment-submit{
+  background-color:  #FFC300;
+  color: black;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+  border-style: none;
+   display: none;
+}
+
+#comment.parsley-error
+    {
+      color: #B94A48 !important;
+      background-color: inherit !important;
+      border: none; /*1px solid #EED3D7 !important;*/
+      border-bottom: 1px solid grey;
+    }
+#comment.parsley-success
+    {
+      color: white !important;
+      background-color: inherit !important;
+      border: none; /*1px solid #EED3D7 !important;*/
+      border-bottom: 1px solid grey;
+    }
+.comment_data{
+  color: white;
+  font-weight: bold;
+}
+.comment_meta{
+  color: grey;
+}
+.comment_date{
+  color: #d8d8d8;
+}
+.comment_row{
+  border-bottom: 1px solid  #404040;
+  margin-bottom: 10px;
+  padding: 10px 5px 10px 5px;
+}
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
